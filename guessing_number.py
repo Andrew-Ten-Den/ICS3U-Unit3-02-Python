@@ -17,13 +17,12 @@ def main():
     # process & output
     if number_guessed == constants.SET_NUMBER:
         print("You guessed correct!")
-        print("")
-        print("Done")
 
     if number_guessed != constants.SET_NUMBER:
         print("You guessed wrong!")
-        print("")
-        print("Done")
+
+    print("")
+    print("Done")
 
 
 if __name__ == "__main__":
